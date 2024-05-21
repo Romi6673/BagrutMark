@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2B0D3"
+    android:backgroundTint="#A2B0D3"
+    tools:context=".secondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="117dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:text="אנגלית"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EnglishGrade"
+        android:layout_width="122dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="הכנס ציון"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/EnglishUnits"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="מתמטיקה"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/MathUnits"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:hint="מספר יחידות"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/EnglishUnits" />
+
+    <EditText
+        android:id="@+id/MathGrade"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:hint="הכנס ציון"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/MathUnits"
+        app:layout_constraintTop_toBottomOf="@+id/EnglishGrade" />
+
+    <EditText
+        android:id="@+id/EnglishUnits"
+        android:layout_width="119dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="מספר יחידות"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/extraSubject1"
+        android:layout_width="117dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="מקצוע הגברה"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="366dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="20dp"
+        android:text="אופן בחירת דרך בגרות"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathUnits" />
+
+    <EditText
+        android:id="@+id/extraSubject1Units"
+        android:layout_width="106dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="מספר יחידות"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject1"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/extraSubject1Grade"
+        android:layout_width="117dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="הכנס ציון"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject1Units"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/extraSubject2"
+        android:layout_width="118dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="מקצוע הגברה"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1" />
+
+    <EditText
+        android:id="@+id/extraSubject2Grade"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="הכנס ציון"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject2Units"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1Grade" />
+
+    <EditText
+        android:id="@+id/extraSubject2Units"
+        android:layout_width="107dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="מספר יחידות"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject2"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1Units" />
+
+    <EditText
+        android:id="@+id/extraSubject3"
+        android:layout_width="118dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="מקצוע הגברה"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2" />
+
+    <EditText
+        android:id="@+id/extraSubject3Units"
+        android:layout_width="109dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="מספר יחידות"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject3"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2Units" />
+
+    <EditText
+        android:id="@+id/extraSubject3Grade"
+        android:layout_width="109dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="הכנס ציון"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject3Units"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2Grade" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="136dp"
+        android:onClick="go"
+        android:text="next"
+        app:iconPadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject3Grade" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

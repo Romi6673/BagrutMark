@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88B0E3"
+    tools:context=".thirdActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="היסטוריה"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:text="אנגלית"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="ספרות"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="מתמטיקה"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="לשון והבעה"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="אזרחות"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="תנך"
+        android:textColor="#1C2457"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/englishUnits"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="68dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mathUnits"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/englishUnits" />
+
+    <TextView
+        android:id="@+id/lashon3Units"
+        android:layout_width="67dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/mathUnits" />
+
+    <TextView
+        android:id="@+id/safrut3Units"
+        android:layout_width="68dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="76dp"
+        android:text="               .             "
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/lashon3Units" />
+
+    <TextView
+        android:id="@+id/history3Units"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:text="     ."
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/safrut3Units" />
+
+    <TextView
+        android:id="@+id/ezrahut3Units"
+        android:layout_width="85dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:text="       .   "
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/history3Units" />
+
+    <TextView
+        android:id="@+id/tanach3Units"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="88dp"
+        android:text="      .     "
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/ezrahut3Units" />
+
+    <TextView
+        android:id="@+id/englishGrade"
+        android:layout_width="67dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:text="      .    "
+        app:layout_constraintEnd_toStartOf="@+id/englishUnits"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mathGrade"
+        android:layout_width="63dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="68dp"
+        android:text="      .    "
+        app:layout_constraintEnd_toStartOf="@+id/mathUnits"
+        app:layout_constraintTop_toBottomOf="@+id/englishGrade" />
+
+    <TextView
+        android:id="@+id/lashonGrade"
+        android:layout_width="69dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="     .     "
+        app:layout_constraintEnd_toStartOf="@+id/lashon3Units"
+        app:layout_constraintTop_toBottomOf="@+id/mathGrade" />
+
+    <TextView
+        android:id="@+id/safrut3Grade"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:text="     .       "
+        app:layout_constraintEnd_toStartOf="@+id/safrut3Units"
+        app:layout_constraintTop_toBottomOf="@+id/lashonGrade" />
+
+    <TextView
+        android:id="@+id/history3Grade"
+        android:layout_width="70dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:text="    .     "
+        app:layout_constraintEnd_toStartOf="@+id/history3Units"
+        app:layout_constraintTop_toBottomOf="@+id/safrut3Grade" />
+
+    <TextView
+        android:id="@+id/ezrahut3Grade"
+        android:layout_width="61dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="68dp"
+        android:text="   .     "
+        app:layout_constraintEnd_toStartOf="@+id/ezrahut3Units"
+        app:layout_constraintTop_toBottomOf="@+id/history3Grade" />
+
+    <TextView
+        android:id="@+id/tanach3Grade"
+        android:layout_width="61dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="72dp"
+        android:text="    .       "
+        app:layout_constraintEnd_toStartOf="@+id/tanach3Units"
+        app:layout_constraintTop_toBottomOf="@+id/ezrahut3Grade" />
+
+    <TextView
+        android:id="@+id/extraSubject1TV"
+        android:layout_width="82dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="."
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/extraSubject2TV"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1TV" />
+
+    <TextView
+        android:id="@+id/extraSubject3TV"
+        android:layout_width="78dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2TV" />
+
+    <TextView
+        android:id="@+id/extraSubject1UnitsTV"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject1TV"
+        app:layout_constraintTop_toBottomOf="@+id/tanach3Units" />
+
+    <TextView
+        android:id="@+id/extraSubject2UnitsTV"
+        android:layout_width="67dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject2TV"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1UnitsTV" />
+
+    <TextView
+        android:id="@+id/extraSubject3UnitsTV"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject3TV"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2UnitsTV" />
+
+    <TextView
+        android:id="@+id/extraSubject1GradeTV"
+        android:layout_width="73dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject1UnitsTV"
+        app:layout_constraintTop_toBottomOf="@+id/tanach3Grade" />
+
+    <TextView
+        android:id="@+id/extraSubject2GradeTV"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject2UnitsTV"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject1GradeTV" />
+
+    <TextView
+        android:id="@+id/extraSubject3GradeTV"
+        android:layout_width="66dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintEnd_toStartOf="@+id/extraSubject3UnitsTV"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject2GradeTV" />
+
+    <TextView
+        android:id="@+id/averageTV"
+        android:layout_width="339dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraSubject3TV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
